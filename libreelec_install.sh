@@ -36,7 +36,7 @@ if [ -e $script ];
 	then
 		echo "Script libreelec_SafeShutdown.py already exists. Doing nothing."
 	else
-		wget "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/libreelec_SafeShutdown.py"
+		wget "https://raw.githubusercontent.com/SimeonEhrig/retroflag-picase/myMerge/libreelec_SafeShutdown.py"
 fi
 #-----------------------------------------------------------
 
@@ -52,12 +52,3 @@ echo "RetroFlag Pi Case installation done. Will now reboot after 3 seconds."
 sleep 3
 sudo reboot
 #-----------------------------------------------------------
-
-
-
-
-
-
-
-
-

@@ -3,7 +3,7 @@
 
 #Step 1) Check if root--------------------------------------
 if [[ $EUID -ne 0 ]]; then
-   echo "Please execute script as root." 
+   echo "Please execute script as root."
    exit 1
 fi
 #-----------------------------------------------------------
@@ -38,7 +38,7 @@ if [ -e $script ];
 	then
 		echo "Script raspbian_SafeShutdown.py already exists. Doing nothing."
 	else
-		wget "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/raspbian_SafeShutdown.py"
+		wget "https://raw.githubusercontent.com/SimeonEhrig/retroflag-picase/myMerge/raspbian_SafeShutdown.py"
 fi
 #-----------------------------------------------------------
 
